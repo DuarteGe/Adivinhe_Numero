@@ -1,0 +1,43 @@
+  body{
+    color:white;
+    background-color: black;
+    text-align: center;
+  }
+  header{
+    text-align:left;
+  }
+  #rostoGato{
+    background-image: url('IMG/gato01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:60vw;
+    height: 40vh;
+
+  }
+  
+  .texto{
+    width: 40vw;
+    height: 20vh;
+    background-size: cover;
+    color:white;
+    text-align: center;
+    background-image: url('IMG/falaGato01.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .vida{
+    display:inline-block;
+    width:35px;
+    height:30px;
+    background-image:url('IMG/cora.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin-right: 5px ;
+  }
+  div.di{
+    margin: auto;
+    color: red;
+    display: inline-block;
+    width: 23%;
+    height: 100px;
+  }
