@@ -8,10 +8,12 @@ var chances = 3
 
 function clicou(x){
   if(x==num){
-  resp.innerHTML= "Acertou!"
+  resp.innerHTML= "Você acertou!"
   chances++
+  }else if(x>num){
+    resp.innerHTML = "Errou! Um pouco menos!"
   }else{
-    resp.innerHTML = "Errou!"
+    resp.innerHTML = "Errou! Um pouco mais!"
   }
   contar()
 }
@@ -24,6 +26,7 @@ function contar(){
       cora1.style.backgroundImage="none"
       cora2.style.backgroundImage="none"
       cora3.style.backgroundImage="none"
+      resp.innerHTML = "Você já não tem mais vidas, mas pode continuar tentando."
       break;
     case 1:
       cora2.style.backgroundImage="none"

@@ -7,24 +7,33 @@
     text-align:left;
   }
   #rostoGato{
+    margin: auto;
     background-image: url('IMG/gato01.png');
     background-repeat: no-repeat;
+    background-position: center center;
     background-size: contain;
-    width:60vw;
-    height: 40vh;
+    width:50vw;
+    height: 30vh;
+    border: 1px solid red;
+    transform: rotate(15deg);
 
   }
   
   .texto{
+    padding-top: 30px;
+    margin: auto;
     width: 40vw;
-    height: 20vh;
-    background-size: cover;
-    color:white;
-    text-align: center;
+    height: 16vh;
+    background-size:cover;
+    font-weight: bolder;
+    font-size: 13px;
+    color:black;
     background-image: url('IMG/falaGato01.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: 100% 80%;
+    border: 1px solid red;
   }
+
   .vida{
     display:inline-block;
     width:35px;
@@ -34,10 +43,21 @@
     background-size:cover;
     margin-right: 5px ;
   }
-  div.di{
-    margin: auto;
-    color: red;
+  
+  .mao{
     display: inline-block;
-    width: 23%;
-    height: 100px;
+    background-image: url('IMG/maoGato.png');
+    width: 15vw;
+    height: 15vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+  }
+  #mao01{
+    transform: rotate(35deg);
+  }
+  #mao02{
+    transform:scaleX(-1);
+    rotate: -35deg;
   }
